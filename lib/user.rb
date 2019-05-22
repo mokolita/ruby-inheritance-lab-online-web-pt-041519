@@ -1,6 +1,3 @@
-require_relative "../lib/teacher.rb"
-require_relative "../lib/student.rb"
-
 class User < Teacher, Student 
   
   attr_accessor :first_name, :last_name 
